@@ -20,7 +20,7 @@ public class DijkstraAlgorithm {
       dijkstra(G, a);
       for (int i = 0; i < 7; i++) {
          System.out.println("from a to: " + G.nodes[i].character);
-         System.out.println("\t" + "Shortest pass with least cost: " + G.nodes[i].cost);
+         System.out.println("\t" + "Shortest path with least cost: " + G.nodes[i].cost);
       }
       
    }
